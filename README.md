@@ -70,4 +70,4 @@ Weather data is fetched using the [OpenWeather API](https://openweathermap.org/a
 
 ---
 
-Made with ❤️ by [Your Name](https://yourwebsite.com)
+Made with ❤️ by AlefAlfa
