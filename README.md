@@ -1,38 +1,73 @@
-# create-svelte
+# Weather Dashboard 🌦️🌡️
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Overview
 
-## Creating a project
+Weather Dashboard is a simple yet powerful application built using [SvelteKit](https://kit.svelte.dev/). Enter a city to get real-time weather updates including temperature, weather conditions (Sunny, Rainy, etc.), and daily high & low temperatures.
 
-If you're seeing this, you've probably already done this step. Congrats!
+![Weather Dashboard Screenshot](./screenshot.png)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+---
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Table of Contents
 
-## Developing
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Features](#features)
+4. [API Used](#api-used)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+---
 
-```bash
-npm run dev
+## Installation
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+To get started with Weather Dashboard, follow these steps:
 
-## Building
+1. **Clone the repository:**
 
-To create a production version of your app:
+    ```bash
+    git clone https://github.com/AlefAlfa/WeatherDashboard.git
+    ```
 
-```bash
-npm run build
-```
+2. **Navigate into the project directory:**
 
-You can preview the production build with `npm run preview`.
+    ```bash
+    cd WeatherDashboard
+    ```
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+3. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+4. **Run the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+Visit `http://localhost:5173` to see the application in action!
+
+---
+
+## Usage
+
+- Type the name of the city into the search bar.
+- Press enter or click the search button.
+- The dashboard will display the current weather conditions for the entered city.
+
+---
+
+## Features
+
+- **Weather Icons**: Visualize the current weather conditions (Sunny, Rainy, etc.) through descriptive icons.
+- **Temperature Details**: Know the current temperature, as well as daily high & low temperatures.
+
+---
+
+## API Used
+
+Weather data is fetched using the [OpenWeather API](https://openweathermap.org/api).
+
+---
+
+Made with ❤️ by [Your Name](https://yourwebsite.com)
