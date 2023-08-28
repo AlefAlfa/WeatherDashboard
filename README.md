@@ -4,7 +4,7 @@
 
 Weather Dashboard is a simple yet powerful application built using [SvelteKit](https://kit.svelte.dev/). Enter a city to get real-time weather updates including temperature, weather conditions (Sunny, Rainy, etc.), and daily high & low temperatures.
 
-![Weather Dashboard Screenshot](./screenshot.png)
+![Weather Dashboard Screenshot](./wdb-screenshot.png)
 
 ---
 
